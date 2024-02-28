@@ -4,6 +4,7 @@ class Demineur{
     public:
     Demineur();
     void affiche();
+    int parcours();
     private:
     int bombe;
     int drapeau;
