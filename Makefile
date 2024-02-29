@@ -8,8 +8,8 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra
 
 # Fichiers source et en-tête
-SRCS = demineur.cpp main.cpp
-HDRS = demineur.h
+SRCS = demineur.cpp main.cpp update_game.cpp
+HDRS = demineur.h update_game.h
 
 # Générer les noms des fichiers objets à partir des fichiers source
 OBJS = $(SRCS:.cpp=.o)
